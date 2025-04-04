@@ -52,6 +52,223 @@ img {
     padding: 20px; /* espaçamento interno */ 
     text-align: justify;
 }
+.info-section {
+    background-color: white; /* Fundo branco */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+/* Título principal */
+.info-section h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #003580; /* Azul escuro para combinar com o site */
+    margin-bottom: 15px;
+}
+
+/* Texto geral */
+.info-section p {
+    font-size: 18px;
+    color: #333; /* Cor mais escura para legibilidade */
+    margin-bottom: 10px;
+}
+
+/* Frase de impacto */
+.info-section p:first-of-type {
+    font-style: italic;
+    font-weight: bold;
+    color: #ffb401; /* Cor laranja do site */
+}
+/* Estilização da seção de introdução */
+.intro-section {
+    background-color: #f8f9fa; /* Fundo claro para leitura confortável */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 40px auto;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Título principal */
+.intro-section h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #003580; /* Azul escuro para combinar com o site */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Parágrafos */
+.intro-section p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Lista */
+.intro-section ul {
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+/* Itens da lista */
+.intro-section li {
+    margin-bottom: 10px;
+}
+
+/* Destaque para frases importantes */
+.intro-section strong {
+    color: #003580; /* Laranja para combinar com o site */
+}
+.objective-section {
+    background-color: #f8f9fa; /* Fundo claro e suave */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 40px auto;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Título */
+.objective-section h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #003580; /* Azul escuro do site */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Parágrafos */
+.objective-section p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Destaque para frases importantes */
+.objective-section strong {
+    color: #003580; /* Laranja para chamar atenção */
+}
+.formato-section {
+    background-color: #f8f9fa; /* Fundo claro e suave */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 40px auto;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Título */
+.formato-section h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #003580; /* Azul escuro do site */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Parágrafos */
+.formato-section p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Destaque para frases importantes */
+.formato-section strong {
+    color: #ffb401; /* Laranja para chamar atenção */
+}
+
+/* Caixa das etapas */
+.etapas {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Estilização de cada etapa */
+.etapa {
+    background: white;
+    border-left: 6px solid #003580; /* Azul do site */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Título das etapas */
+.etapa h2 {
+    color: #003580;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+/* Listas */
+.etapa ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.etapa ul li {
+    font-size: 18px;
+    padding: 5px 0;
+    position: relative;
+}
+
+/* Adicionando um ícone antes dos itens da lista */
+.etapa ul li::before {
+    content: "•"; 
+    color: #ffb401; /* Laranja */
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    width: 20px;
+}
+.gincana-section {
+    background-color: #f8f9fa; /* Fundo claro e suave */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 40px auto;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Título */
+.gincana-section h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #003580; /* Azul escuro do site */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Parágrafos */
+.gincana-section p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Destaque para frases importantes */
+.gincana-section strong{
+    color: #ffb401; /* Laranja para chamar atenção */
+}
 h2 {
     text-align: center;
 }
