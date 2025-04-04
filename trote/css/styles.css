@@ -1,0 +1,187 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* espaçamento externo da página */
+    padding: 0; /* espaçamento interno da página */
+    background-color: #f4f4f4;
+    text-align: center; /* texto centralizado */
+}
+header {
+    background-color: #ffb401;
+    color: white;
+    /* 15px (espaçamento interno acima e abaixo) e 0px (direita e esquerda)*/
+    padding: 15px 0px;
+    font-size: 24px; 
+}
+nav {
+    background: #0060f5;
+    padding: 10px; /* espaçamento interno do menu */
+    display: flex; /* Flex Boxing */
+    justify-content: space-between; /* espaço entre os elementos do menu*/
+    align-items: center; /* alinhamento na vertical */
+}
+#links-menu{
+    display: flex;
+    gap: 20px; /* distância entre os itens do menu*/
+}
+nav a { /* configura os links do menu */
+    color: white;
+    text-decoration: none; /* não decora os links */
+    padding: 10px 15px; /* (10px acima e abaixo) (15px é esquerda e direita)*/
+    font-size: 18px;
+    background: #0056b3;
+    border-radius: 5px; /* cantos arredondados */
+}
+
+img {
+    width: 120px;
+    height: auto;
+    margin-right: 80px; /* espaçamento externo à direita */
+    border-radius: 10px;
+}
+
+.container {
+    width: 80%; /* largura de 80% da largura da página */
+    background: white;
+    border-radius: 10px;
+    /* espaçamento externo 20px acima e abaixo */
+    /* espaçamento externo auto à direita e à esquerda */
+    margin: 20px auto;
+    padding: 20px; /* espaçamento interno */ 
+    text-align: justify;
+}
+h2 {
+    text-align: center;
+}
+ol li{
+    padding-bottom: 10px;
+}
+table tr td{     /*todos os td que tao dentro do tr que tao dentro do table sofrem essa alteração*/
+    padding: 20px;
+}
+table{
+    margin: 0 auto;
+}
+.laranja{
+    background-color: rgb(247, 141, 3);
+    color: white;
+}
+.azul{
+    background-color: rgb(55, 55, 180);
+    color: #f4f4f4;
+}
+.preta{
+    background-color: black;
+    color: #f4f4f4;
+}
+.roxa{
+    background-color: rgb(199, 74, 199);
+    color: #f4f4f4;
+}
+.verde{
+    background-color: rgb(50, 179, 50);
+    color: #f4f4f4;
+}
+.vermelha{
+    background-color: rgb(221, 66, 66);
+    color: #f4f4f4;
+}
+.cinza{
+    background-color: lightgray;
+    color: black;
+}
+.white{
+    background-color: #f4f4f4;
+    color: black;
+}
+.metaroxa{
+    background-color: #f4f4f4;
+    color: black;
+}
+.CA{
+    text-align: center;
+}
+.bluebox{
+    background-color: lightblue;
+    width: 800px;
+    
+}
+.beigebox{
+    background-color: beige;
+    width: 800px;
+}
+.last{
+    text-align: center;
+}
+.botao{
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+}
+.container {
+    width: 50%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.5s, color 0.5s;
+}
+
+h1 {
+    color: #d3c6c6;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+select, input {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    display: block;
+    margin: auto;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Efeito ao focar nos inputs */
+input:focus {
+    border-color: #0056b3;
+    outline: none;
+    box-shadow: 0px 0px 8px rgba(0, 86, 179, 0.5);
+}
+
+/* Estilização do botão */
+button {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Efeito hover no botão */
+button:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilização do resultado */
+#resultado {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
