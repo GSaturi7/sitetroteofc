@@ -267,7 +267,71 @@ img {
 
 /* Destaque para frases importantes */
 .gincana-section strong{
-    color: #003580; /* Laranja para chamar atenção */
+    color: #003580; 
+}
+.integracao-section {
+    background-color: #f8f9fa; /* Fundo claro e suave */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 40px auto;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Título */
+.integracao-section h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #003580; /* Azul escuro do site */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Parágrafos */
+.integracao-section p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Destaque para frases importantes */
+.integracao-section strong{
+    color: #003580; 
+}
+.observacao-section {
+    background-color: #f8f9fa; /* Fundo claro e suave */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 40px auto;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Título */
+.observacao-section h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #003580; /* Azul escuro do site */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Parágrafos */
+.observacao-section p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Destaque para frases importantes */
+.observacao-section strong{
+    color: #003580; 
 }
 h2 {
     text-align: center;
@@ -348,7 +412,7 @@ table{
 }
 
 h1 {
-    color: #d3c6c6;
+    color: #003580;
 }
 
 label {
