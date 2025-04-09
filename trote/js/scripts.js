@@ -20,17 +20,26 @@ function mudarCor() {
     }
   }
   
-  function calcularPontuacao() {
-    let mascote = parseInt(document.getElementById("mascote").value) || 0;
-    let atleta = parseInt(document.getElementById("atleta").value) || 0;
-    let leite = parseInt(document.getElementById("leite").value) || 0;
-    let sangue = parseInt(document.getElementById("sangue").value) || 0;
-    let kit = parseInt(document.getElementById("kit").value) || 0;
-    let suplementos = parseInt(document.getElementById("suplementos").value) || 0;
-  
-    let soma = mascote + atleta + (2 * leite);
-    document.getElementById("resultado").innerText = "A pontuação da equipe é: " + soma;
-  }
+  function calcular(){
+    // vamos criar 2 variáveis 
+    // JS as variáveis não possuem tipo
+    let mascote, homenagem, leite, kit, suplemento, soma, equipe, sangue
+    // recupera o valor do mascote digitado pelo usuário
+    mascote = Number(document.getElementById("mascote").value)
+    // recupera o valor da homenagem digitado pelo usuário
+    homenagem = Number(document.getElementById("homenagem").value)
+    // recupera a qtde de litros de leite
+    leite = Number(document.getElementById("leite").value)
+    // recupera a qtde avulsa de kits de alimentação
+    kit = Number(document.getElementById("kit").value)
+    // recupera a qtde avulsa de suplemento 
+    suplemento = Number(document.getElementById("suplemento").value)
+    // calcular a soma parcial
+    soma = mascote + homenagem + (2 * (leite)) 
+    // vamos calcular a pontuacao considerando metas de kit e supl
+    equipe = document.getElementById("equipe").value
+    // doação de sangue
+    sangue = Number(document.getElementById("sangue").value)
   if(equipe == "laranja"){
       // verifica kit e suplemento
       if(kit >= 97 && suplementos >= 49){
@@ -46,7 +55,7 @@ function mudarCor() {
           soma = soma + 1000 + ((kit - 19) * 30) + ((suplementos - 10) * 15)
       }
   if(sangue >= 49){
-      soma = soma + 2500 
+      soma = soma + 2500 + ((sangue - 49) * 20)
   }
   else{
       soma = soma + (sangue * 20)
@@ -135,4 +144,9 @@ if(sangue >= 47){
 else{
     soma = soma + (sangue * 20)
 }
+}
+
+// retorna o valor ao HTML
+    // template string
+    document.getElementById("soma").innerHTML = `A soma é ${soma}`
 }
